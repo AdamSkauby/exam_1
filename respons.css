@@ -7,6 +7,7 @@
 
 html {
 	font-size: 100%;
+}
 
 /* Se till att hela hero-sektionen och schemat får plats */
 .hero,
@@ -21,6 +22,7 @@ html {
 body {
 	margin: 0;
 	max-width: 100%;
+}
 
 .hero img,
 #hero img {
@@ -28,11 +30,6 @@ body {
 }
 
 img,
-
-.schema,
-#schema,
-.schedule,
-#schedule {
 video,
 svg,
 iframe {
