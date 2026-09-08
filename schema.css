@@ -1,7 +1,14 @@
 .tidtabell {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tidtabell{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #schematitel {
   display: flex;
@@ -9,7 +16,9 @@
   align-items: center;
 }
 .tid {
-    padding: 3rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
 }
 #blå-scen {
     background-color: steelblue;
