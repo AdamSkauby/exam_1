@@ -1,0 +1,25 @@
+.tidtabell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+#schematitel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tid {
+    padding: 3rem;
+}
+#blå-scen {
+    background-color: steelblue;
+}
+#rosa-scen {
+    background-color: darksalmon;
+}
+#gul-scen {
+    background-color: gold;
+}
+#grön-scen {
+    background-color: darkgreen;
+}
