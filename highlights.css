@@ -1,17 +1,20 @@
 body {
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .höjdpunkter {
-    background-color: #ebe0e6;
+    color:#1B365D;
+    background-color: #1B365D;
     padding: 1rem;
 }
+
 
 .kort-rad {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 3.55rem;
     align-items: stretch;
     margin: 2rem;
 }
@@ -21,31 +24,35 @@ body {
     flex: 1 1 220px;
     flex-direction: column;
     max-width: 280px;
-    background-color: beige;
+    background-color: #F7F5F0;
     padding: 1rem;
-    border: 1px solid rgb(243, 210, 170);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 10px;
     
 }
 
 .kort img {
     width: 100%;
-    height: auto;
+    height: 180px;
+   
 }
 
 .highlights {
     display:flex;
     justify-content: center;
-    margin: 4rem;
+    padding: 1rem 1rem 3rem;
+    font-weight: bold;
+    color: #E8927C
 
 }
 
 .kort .btn {
     margin-top:auto;
     align-self: start;
-    background-color:rgb(102, 117, 129);
+    background-color: #E8927C;
     padding: 0.5rem;
     border: 1px solid rgb(54, 71, 68);
     border-radius: 10px;
     color: rgb(51, 62, 83);
+    text-decoration: none;
 }
