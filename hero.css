@@ -21,6 +21,20 @@
   left: 0; 
   right: 0; 
 }
+.hero .hero-info .datum {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  left: 22rem;
+}
+.hero .hero-info .plats {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  right: 22rem;
+}
 .hero .tagline {
   font-size: 1.5rem;
   font-weight: bold;
