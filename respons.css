@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+        .hero {
+          min-height: 70vh;
+          padding: 2rem 1rem;
+        }
+
+        .hero > img {
+          width: min(80vw, 420px);
+          height: auto;
+        }
+
+        .hero-info {
+          text-align: center;
+        }
+
+        .tagline {
+          text-align: center;
+          font-size: 1.1rem;
+        }
+
+        #tidtabell {
+          padding: 1rem;
+        }
+
+        #schematitel {
+          font-size: 1.4rem;
+        }
+
+        .tidtabell,
+        .kort-rad {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+
+        .kort {
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        .kort img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        footer {
+          padding: 1.5rem 1rem;
+          text-align: center;
+        }
+
+        footer nav {
+          display: flex;
+          flex-direction: column;
+          gap: .75rem;
+        }
+      }
+
+      @media (min-width: 769px) and (max-width: 1024px) {
+        .kort-rad {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .tidtabell {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
