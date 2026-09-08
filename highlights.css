@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+}
+
+.höjdpunkter {
+    background-color: #ebe0e6;
+    padding: 1rem;
+}
+
 .kort-rad {
     display: flex;
     flex-wrap: wrap;
