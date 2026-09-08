@@ -1,3 +1,18 @@
 .hero {
-    
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1.75rem;
+}
+.hero .hero-info {
+  font-weight: bold;
+  text-align: center;
+  gap: 12rem;
+  display: flex;
+  justify-content: center;
+}
+.hero .tagline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
 }
