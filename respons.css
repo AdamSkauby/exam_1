@@ -1,65 +1,164 @@
+/* Grundläggande responsiv layout */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+
+/* Se till att hela hero-sektionen och schemat får plats */
+.hero,
+#hero,
+.schema,
+#schema,
+.schedule,
+#schedule {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	max-width: 100%;
+
+.hero img,
+#hero img {
+	overflow-x: hidden;
+}
+
+img,
+
+.schema,
+#schema,
+.schedule,
+#schedule {
+video,
+svg,
+iframe {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+header,
+main,
+footer,
+section,
+article,
+nav {
+	max-width: 100%;
+}
+
+table {
+	display: block;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+input,
+textarea,
+select,
+button {
+	max-width: 100%;
+	font: inherit;
+}
+
+/* Surfplattor */
 @media (max-width: 768px) {
-        .hero {
-          min-height: 70vh;
-          padding: 2rem 1rem;
-        }
+	body {
+		padding: 0 1rem;
+	}
 
-        .hero > img {
-          width: min(80vw, 420px);
-          height: auto;
-        }
+	header,
+	nav,
+	.nav,
+	.navbar {
+		flex-wrap: wrap;
+	}
 
-        .hero-info {
-          text-align: center;
-        }
+	nav ul,
+	.nav ul,
+	.navbar ul {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.75rem;
+		padding-left: 0;
+	}
 
-        .tagline {
-          text-align: center;
-          font-size: 1.1rem;
-        }
+	main,
+	section,
+	.container,
+	.content,
+	.hero,
+	#hero,
+	.schema,
+	#schema,
+	.schedule,
+	#schedule {
+		width: 100%;
+		max-width: 100%;
+	}
 
-        #tidtabell {
-          padding: 1rem;
-        }
+	.grid,
+	.cards,
+	.columns {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
 
-        #schematitel {
-          font-size: 1.4rem;
-        }
+/* Mobiler */
+@media (max-width: 480px) {
+	body {
+		padding: 0 0.75rem;
+	}
 
-        .tidtabell,
-        .kort-rad {
-          grid-template-columns: 1fr;
-          gap: 1rem;
-        }
+	h1 {
+		font-size: clamp(1.75rem, 8vw, 2.5rem);
+	}
 
-        .kort {
-          width: 100%;
-          box-sizing: border-box;
-        }
+	h2 {
+		font-size: clamp(1.4rem, 6vw, 2rem);
+	}
 
-        .kort img {
-          max-width: 100%;
-          height: auto;
-        }
+	nav,
+	nav ul,
+	.nav,
+	.navbar,
+	.menu,
+	.flex-row,
+	.grid,
+	.cards,
+	.columns {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
 
-        footer {
-          padding: 1.5rem 1rem;
-          text-align: center;
-        }
+	nav a,
+	.nav a,
+	.navbar a,
+	button {
+		width: 100%;
+		text-align: center;
+	}
 
-        footer nav {
-          display: flex;
-          flex-direction: column;
-          gap: .75rem;
-        }
-      }
+	.grid,
+	.cards,
+	.columns {
+		gap: 1rem;
+	}
 
-      @media (min-width: 769px) and (max-width: 1024px) {
-        .kort-rad {
-          grid-template-columns: repeat(2, 1fr);
-        }
+	.hero,
+	#hero {
+		padding: 1rem 0;
+	}
 
-        .tidtabell {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
+	.schema,
+	#schema,
+	.schedule,
+	#schedule {
+		font-size: 0.9rem;
+		padding-bottom: 0.5rem;
+	}
+}
