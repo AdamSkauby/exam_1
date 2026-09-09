@@ -1,5 +1,4 @@
 .tidtabell {
-    background-color: #f9b2d5;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1rem;
@@ -10,11 +9,13 @@
 }
 #tidtabell{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-bottom: 3rem;
 }
 #schematitel {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: darkgreen;
 }
 .tid {
     padding: 1.5rem;
