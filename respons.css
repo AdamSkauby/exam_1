@@ -1,29 +1,13 @@
-@media (max-width: 768px) {
-	body {
-		padding: 0 1rem;
-	}
+/* respons.css */
 
-	header,
-	nav,
-	.hero,
-	.hero-info{
-		flex-wrap: wrap;
-	}
+@media (max-width: 600px) {
+    /* Highlights */
+    .kort-rad {
+        flex-direction: column;
+    }
 
-	main,
-	section,
-
-	.tidtabell,
-	#tidtabell,
-	.tid,
-	#tid {
-		width: 100%;
-		max-width: 100%;
-	}
-
-	.höjdpunkter,
-	.kort,
-	.kort-rad {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
+    /* Schema */
+    .tidtabell {
+        grid-template-columns: 1fr;
+    }
 }
