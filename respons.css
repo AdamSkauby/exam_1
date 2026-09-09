@@ -5,28 +5,25 @@
 
 	header,
 	nav,
-	.nav,
-	.navbar {
+	.hero,
+	.hero-info{
 		flex-wrap: wrap;
 	}
 
 	main,
 	section,
-	.container,
-	.content,
-	.hero,
-	#hero,
-	.schema,
-	#schema,
-	.schedule,
-	#schedule {
+
+	.tidtabell,
+	#tidtabell,
+	.tid,
+	#tid {
 		width: 100%;
 		max-width: 100%;
 	}
 
-	.grid,
-	.cards,
-	.columns {
+	.höjdpunkter,
+	.kort,
+	.kort-rad {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
