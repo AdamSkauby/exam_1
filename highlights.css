@@ -46,9 +46,13 @@ body {
 
 }
 
+.kort h3 {
+    align-self: center;
+}
+
 .kort .btn {
     margin-top:auto;
-    align-self: start;
+    align-self: center;
     background-color: #E8927C;
     padding: 0.5rem;
     border: 1px solid rgb(54, 71, 68);
