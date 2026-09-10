@@ -1,0 +1,18 @@
+.nav_header {
+    background-color: darkgreen;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+    flex: 1;
+    
+  
+}
+
+.nav_header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
